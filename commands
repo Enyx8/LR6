@@ -1,0 +1,13 @@
+git pull
+git log master
+git checkout branch1
+git log branch1
+git show
+git checkout branch1
+git show
+git checkout master
+git merge branch1
+git branch -d branch1
+git add .
+git commit
+git revert HEAD
