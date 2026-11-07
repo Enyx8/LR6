@@ -11,3 +11,4 @@ git branch -d branch1
 git add .
 git commit
 git revert HEAD
+git log --pretty=format:"%h %ad %an %s" --date=short
